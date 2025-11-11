@@ -1,0 +1,138 @@
+body{
+    background-image: url(fundofor.jpg);
+}
+
+.Z1 p{
+    color: rgb(255, 0, 0);
+}
+
+
+
+.z3 button, a {
+    background: rgb(0, 4, 255);
+    color: rgb(255, 238, 0);
+    font-size: 22px;
+    border-radius: 90px;
+    text-decoration: solid;
+    
+
+}
+.Z3  a{
+    
+    color: rgb(252, 251, 250);
+    text-decoration: none;
+    font-size: 20px;
+    float: center;
+   
+}
+.i1 input{width: 220px;border:none;  border-radius: 20px; height: 60px;  font-size: 23px;}
+.i2 input{width: 220px;border:none;  border-radius: 25px; height: 60px;  font-size: 23px;}
+.i3 input{width: 220px;border:none;  border-radius: 30px; height: 60px;  font-size: 23px;}
+
+
+
+/* ===== Estilo base (celulares muito pequenos) ===== */
+body {
+  background-color: lightblue;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+}
+
+/* ===== CELULARES MÉDIOS (480px – 767px) ===== */
+@media (min-width: 0px) and (max-width: 380px) {
+ 
+
+ .z1 p{float: left;
+     margin-top: 0px;
+    margin-left: 0px;
+    font-size: 39px;
+}
+.i1 input{
+    width: 180px;
+    height: 30px;
+    
+}
+.i2 input{
+    width:180px;
+    height: 30px;
+    
+}.i3 input{
+    width: 180px;
+    height: 30px;
+    
+}
+}
+/* ===== TABLETS (768px – 1023px) ===== */
+@media (min-width: 381px) and (max-width: 480px) {
+ .z1 p{text-align: center;
+     margin-top: 0px;
+    margin-left: 0px;
+    font-size: 39px;
+}
+.i1 input{
+    width: 200px;
+    height: 40px;
+    
+}
+.i2 input{
+    width:200px;
+    height: 40px;
+    
+}.i3 input{
+    width: 200px;
+    height: 40px;
+    
+}
+}
+
+/* ===== NOTEBOOKS (1024px – 1279px) ===== */
+@media (min-width: 481px) and (max-width: 600px) {
+ .z1 p{text-align: center;
+     margin-top: 0px;
+    margin-left: 0px;
+    font-size: 50px;
+}
+.i1 input{
+    width: 240px;
+    height: 50px;
+    
+}
+.i2 input{
+    width:240px;
+    height: 50px;
+    
+}.i3 input{
+    width: 240px;
+    height: 50px;
+    
+}
+}
+
+/* ===== TELAS MUITO GRANDES (1600px ou mais) ===== */
+@media (min-width: 1001px)and (max-width: 5000px) {
+ .z1 p{text-align: center;
+     margin-top: 0px;
+    margin-left: 0px;
+    font-size: 39px;
+}
+.i1 input{
+    width: 280px;
+    height: 60px;
+    
+}
+.i2 input{
+    width:280px;
+    height: 60px;
+    
+}.i3 input{
+    width: 280px;
+    height: 60px;
+    
+}
+}
+
+
+
+

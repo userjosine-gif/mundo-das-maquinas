@@ -1,0 +1,135 @@
+body{
+background-image: url(img/fs/fundo.jpg);
+ background-size: cover;
+ background-repeat: repeat;
+
+
+}ul{
+    background-color:rgba(167, 174, 241, 0.753);
+    list-style-type: none;
+    margin: none;
+    padding: 0;
+    overflow: hidden ;}  
+
+
+.z1 a{
+    padding: 14px 19px;
+    text-decoration-color: rgba(255, 0, 0, 0.521);
+    color: rgb(25, 0, 255);
+   
+    list-style-type:none;
+
+}
+.z2{
+    font-size: 16px; text-align: left; color: white;
+
+
+padding: ;
+
+}
+.as{ color: yellow;
+
+}
+li{
+   
+   float: left;
+} 
+li a{
+
+    display:inline-block;
+    color: blue;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+     font-size: 37px;
+}
+li a:hover{
+    color: yellow;
+}
+.aq{
+color: rgb(39, 255, 39)
+;font-size: 30px;
+}
+.dm{color: rgb(255, 0, 0); font-size: 20px}
+ /* ===== Estilo base (celulares muito pequenos) ===== */
+body {
+  background-color: lightblue;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ===== CELULARES MÉDIOS (480px – 767px) ===== */
+@media (min-width: 296px) and (max-width: 380px) {
+ body{
+     zoom:130%;
+     margin-top:0px;
+     margin-left: 0px;
+     margin-right: 0px;
+ }
+    .aq{font-size: 20px;
+    color: lightgreen;
+  }
+  .zs ul a{font-size: 10px; padding: 4px 6px;
+    
+  }
+  .dm{float: left;
+
+  }
+}
+
+/* ===== TABLETS (768px – 1023px) ===== */
+@media (min-width: 381px) and (max-width: 480px) {
+ .aq{color: rgb(0, 255, 191);
+  font-size: 30px;
+  }
+  .zs ul a{font-size: 10px; padding: 8px 12px;
+    
+  }
+  .dm{text-align: center;
+
+  }
+}
+
+/* ===== NOTEBOOKS (1024px – 1279px) ===== */
+@media (min-width: 481px) and (max-width: 600px) {
+ .aq{color: rgb(0, 119, 255);
+  font-size: 30px;
+  }
+  .zs ul a{font-size: 20px; padding: 12px 18px;
+    zoom:200px;
+  }
+  .dm{float: left;
+
+  }
+}
+
+/* ===== DESKTOPS GRANDES (1280px – 1599px) ===== */
+@media (min-width: 601px) and (max-width: 1000px) {
+.aq{color: rgb(162, 0, 255);
+  font-size: 35px;
+  }
+  .zs ul a{font-size: 20px; padding: 16px 22px;
+    
+  }
+  .dm{float: left;
+    font-size: 40px;
+
+  }
+}
+
+/* ===== TELAS MUITO GRANDES (1600px ou mais) ===== */
+@media (min-width: 1001px)and (max-width: 5000px) {
+ .aq{color: rgb(255, 0, 119);
+  font-size: 35px;
+  }
+  .zs ul a{font-size: 30px; padding: 20px 28px;
+    
+  }
+  .dm{float:right;
+    font-size: 40px;
+
+  }
+}
+
