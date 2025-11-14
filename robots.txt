@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://userjosine-gif.github.io/mundo-das-maquinas/sitemap.xml
